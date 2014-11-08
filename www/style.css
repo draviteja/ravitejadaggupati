@@ -1,0 +1,273 @@
+.rainbowDash
+{
+  /*display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  box-align: stretch;*/
+  width: 100%;
+  height: 4px;
+}
+.rainbowDash .green,
+.rainbowDash .blue,
+.rainbowDash .red,
+.rainbowDash .orange
+{
+  /*-webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;*/
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.rainbowDash .green 
+{ 
+  background-color: #83EDB8; 
+}
+.rainbowDash .blue 
+{ 
+  background-color: #50BCB6; 
+}
+.rainbowDash .red 
+{ 
+  background-color: #EE4256; 
+}
+.rainbowDash .orange 
+{ 
+  background-color: #FCB64B; 
+}
+#content
+{
+  width:850px;
+}
+#content #aboutme
+{
+  font-size:22px;
+}
+#photo .profile-picture
+{
+  box-shadow:0px 1px 4px #666666;
+  -webkit-box-shadow:0px 1px 4px #666666;
+  -moz-box-shadow:0px 1px 4px #666666;
+  
+  transform:rotate(2deg);
+  -webkit-transform:rotate(2deg);
+  -moz-transform:rotate(2deg);
+
+  border-radius:2px;
+  -mozborder-radius:2px;
+  -webkit-border-radius:2px;
+
+  background-color:white;
+  margin:40px 0px 30px 0px;
+  padding:10px 10px 40px;
+}
+#online 
+{
+  padding: 40px 0px 40px 0px;
+}
+#online a
+{
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+
+  margin-right:5px;
+  border:1px solid rgb(235,235,235);
+  position:relative;
+  font-size:13px;
+  padding:10px 0px;
+  color:black;
+}
+#online a:hover
+{
+  color:white;
+}
+#online a:active
+{
+  top:4px;
+}
+#online a span
+{
+  padding:2px 11px 2px 35px;
+}     
+#online a.linkedin:hover
+{
+  -webkit-box-shadow: #999 0px 0px 3px;
+  background: #F3F3F3 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4E9CC3), to(#4E9CC3));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4E9CC3), to(#4E9CC3));
+  border-color: #4E9CC3;
+  outline: 0px;
+}
+#online a.github:hover
+{
+  -webkit-box-shadow: #999 0px 0px 3px;
+  background: #F3F3F3 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#444444), to(#444444));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#444444), to(#444444));
+  border-color: #444444;
+  outline: 0px;
+}
+#online a.twitter:hover
+{
+  -webkit-box-shadow: #999 0px 0px 3px;
+  background: #F3F3F3 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#77CBFC), to(#77CBFC));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#77CBFC), to(#77CBFC));
+  border-color: #77CBFC;
+  outline: 0px;
+}
+#online a.facebook:hover
+{
+  -webkit-box-shadow: #999 0px 0px 3px;
+  background: #F3F3F3 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3B5A98), to(#3B5A98));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3B5A98), to(#3B5A98));
+  border-color: #3B5A98;
+  outline: 0px;
+}
+#online a.gofedora:hover
+{
+  -webkit-box-shadow: #999 0px 0px 3px;
+  background: #F3F3F3 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BB3333), to(#BB3333));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BB3333), to(#BB3333));
+  border-color: #BB3333;
+  outline: 0px;
+}
+#online a.blog:hover
+{
+  -webkit-box-shadow: #999 0px 0px 3px;
+  background: #F3F3F3 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#68B7C0), to(#68B7C0));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#68B7C0), to(#68B7C0));
+  border-color: #68B7C0;
+  outline: 0px;
+}
+#online a.email:hover
+{
+  -webkit-box-shadow: #999 0px 0px 3px;
+  background: #F3F3F3 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00AA00), to(#00AA00));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00AA00), to(#00AA00));
+  border-color: #00AA00;
+  outline: 0px;
+}	  
+#online a.linkedin span
+{
+  background:url("images/icons.png") no-repeat scroll 10px -35px transparent;
+}
+#online a.github span
+{
+  background:url("images/icons.png") no-repeat scroll 10px -88px transparent;
+}
+#online a.twitter span
+{
+  background:url("images/icons.png") no-repeat scroll 10px -16px transparent;
+}
+#online a.facebook span
+{
+  background:url("images/icons.png") no-repeat scroll 10px -52px transparent;
+}
+#online a.gofedora span
+{
+  background:url("images/icons.png") no-repeat scroll 10px -70px transparent;
+}
+#online a.blog span
+{
+  background:url("images/icons.png") no-repeat scroll 10px -70px transparent;
+}
+#online a.email span
+{
+  background:url("images/icons.png") no-repeat scroll 10px 2px transparent;
+}
+#footer
+{
+  padding:18px 0px 0px 0px;
+}
+#footer p
+{
+  text-align:center;
+}
+#footer p.credits
+{
+  font-size:10px;
+}
+
+
+
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,
+blockquote,a,abbr,acronym,em,img,strike,
+strong,sub,sup,ol,ul,li,label
+{
+  margin:0 auto;
+  padding:0 auto;
+  border:0;
+  outline:0;
+  font-weight:inherit;
+  font-style:inherit;
+  font-size:100%;
+  font-family:inherit;
+  vertical-align:baseline;
+}
+body
+{
+  line-height:1;
+  color:black;
+  background:white;
+}
+ol,ul
+{
+  list-style:none;
+}
+a img
+{
+  border:none;
+}
+body
+{
+  font-family:'Ubuntu',arial,sans-serif;
+  text-align:center;
+  font-weight:light;
+  font-size:16px;
+  color:#111111;
+}
+strong
+{
+  font-weight:bold;
+}
+em
+{
+  font-style:italic;
+}
+p
+{
+  line-height:1.5em;
+  text-align:justify;
+  margin-bottom:20px;
+}
+a
+{
+  color:#aa0000;
+  text-decoration:none;
+}
+a:hover 
+{
+  border-bottom:solid 1px #aa0000;
+}
+.clear
+{
+  clear:both;
+}
+#topborder
+{
+  height:14px;
+  top:0;
+  width:100%;
+  overflow:hidden;
+}
+#topborder div
+{
+  -moz-box-shadow:0 0 2px #111111;
+  background:none repeat scroll 0 0 #111111;
+  height:4px;
+}
+      
